@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+ul,ol{
+    list-style-type: none;
+}
 
 /* ADDING OVERLAY OF THE  IMAGE  */
 .overlay{
