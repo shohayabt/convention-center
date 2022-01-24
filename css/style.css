@@ -7,11 +7,16 @@
 ul,ol{
     list-style-type: none;
 }
-
+html{
+    overflow-x:hidden !important ;
+}
 /* ADDING OVERLAY OF THE  IMAGE  */
 .overlay{
     position: relative;
     z-index: -1;
+}
+.overlay img{
+height: 100% !important;
 }
 .overlay::after{
     position: absolute;

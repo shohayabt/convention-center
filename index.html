@@ -26,8 +26,8 @@
 <body>
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-0">
-              <a class="navbar-brand fs-4 fw-bold" href="#">SST CONVENTION CENTER</a>
+            <div class="container px-lg-0">
+              <a class="navbar-brand fs-6 fs-lg-2 fw-bold " href="#">SST CONVENTION CENTER</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -60,9 +60,9 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/banner.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-item overlay active">
+                        <img src="images/banner.jpg" class="d-block img-lg-fluid" alt="...">
+                        <div style="z-index: 10;" class="carousel-caption">
                             <h5 class="text-uppercase">SHT Convention Centre (SCC)</h5>
                             <p class="text-capitalize">It was established in 2003 with the goal of providing the highest
                                 standard of services in the Hospitality Industry.</p>
@@ -71,8 +71,8 @@
                         </div>
                     </div>
                     <div class="carousel-item overlay">
-                        <img src="images/banner02.jpg" class="d-block w-100" alt="...">
-                        <div style="z-index: 10;" class="carousel-caption d-none d-md-block">
+                        <img src="images/banner02.jpg" class="d-block img-lg-fluid  " alt="...">
+                        <div style="z-index: 10;" class="carousel-caption">
                             <h5 class="text-uppercase">SHT Convention Centre (SCC)</h5>
                             <p class="text-capitalize">It was established in 2003 with the goal of providing the highest
                                 standard of services in the Hospitality Industry.</p>
@@ -81,8 +81,8 @@
                         </div>
                     </div>
                     <div class="carousel-item overlay">
-                        <img src="images/banner03.png" class="d-block w-100" alt="...">
-                        <div style="z-index: 10;" class="carousel-caption d-none d-md-block">
+                        <img src="images/banner03.png" class="d-block img-lg-fluid" alt="...">
+                        <div style="z-index: 10;" class="carousel-caption">
                             <h5 class="text-uppercase">SHT Convention Centre (SCC)</h5>
                             <p class="text-capitalize">It was established in 2003 with the goal of providing the highest
                                 standard of services in the Hospitality Industry.</p>
@@ -106,11 +106,28 @@
     </header>
     <!-- MAIN SECTION START FROM HERE -->
     <main>
+        <!-- ABOUT US SECTION START FORM HERE -->
+        <section id="about-us" class=" container w-100 mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-start flex-column">
+                    <h1 class="text-uppercase text-center text-lg-start fw-bold my-2 w-100">ABOUT US</h1>
+                    <p class="text-center text-lg-start">SST Convention Centre is one of the ORIGINAL and LEADING convention centers in Bangladesh. It was established in 2015 with the goal of providing the highest standard of services in the Hospitality Industry.
+
+                    SST Convention Centre offers Luxurious Banquet Halls, Business Conference Rooms, Business Centre, all of which that are equipped with a modern hygienic Kitchen, car parking facilities and a fantastic and cozy location in the central business district of Gulshan, Dhaka.</p>
+                    <a href="https://shohayabt.github.io/shohayab.xyz/"
+                    class="btn btn-primary fw-normal text-uppercase text-light my-2 rounded-pill py-2 px-4 align-self-center align-self-lg-start">MORE</a>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="images/about.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT US SECTION END HERE -->
         <!-- OUR PACKAGE SECTION START FROM HERE -->
-        <section id="our-package" class="container px-0 pb-5 text-capitalize">
+        <section id="our-package" class="container pb-5 text-capitalize">
             <h1 class="text-uppercase fw-bold text-center my-5">Our package</h1>
-            <div class="row d-flex justify-content-around align-items-center">
-                <div class="col-3">
+            <div class="row px-3 px-md-0">
+                <div class="col-lg-3 col-md-6 col-12 my-3 my-md-0">
                     <h1>$300</h1>
                     <h5 class="text-capitalize fw-bold">Corporate Catering</h5>
                     <p class="fw-normal">We also do In house and outside Corporate Catering</p>
@@ -130,7 +147,7 @@
                         class="btn btn-primary fw-normal text-uppercase text-light my-2 rounded-pill py-2 px-4">Choose
                         plan</a>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-6 col-12 my-3 my-md-0">
                     <h1>$500</h1>
                     <h5 class="text-capitalize fw-bold">Social Catering</h5>
                     <p class="fw-normal">We also do In house and outside Corporate Catering</p>
@@ -150,7 +167,7 @@
                         class="btn btn-primary fw-normal text-uppercase text-light my-2 rounded-pill py-2 px-4">Choose
                         plan</a>
                 </div>
-                <div style="border-radius: 20px;" class=" col-3 shadow-lg px-3 py-4 bg-primary text-light position-relative">
+                <div style="border-radius: 20px;" class=" col-lg-3 col-md-6 col-12 my-3 my-md-0 shadow-lg px-3 py-4 bg-primary text-light position-relative">
                         <small class="position-absolute top-0 start-50 translate-middle-y p-2 bg-danger rounded-pill ">HOT</small>
                         <h1>$800</h1>
                         <h5 class="text-capitalize fw-bold">Wedding plus</h5>
@@ -171,7 +188,7 @@
                             class="btn btn-light fw-normal text-uppercase text-primary my-2 rounded-pill py-2 px-4">Choose
                             plan</a>
                 </div>
-                <div class="col-3 px-0 ps-5">
+                <div class="col-lg-3 col-md-6 col-12 my-3 my-md-0 px-md-0 ps-md-5">
                     <h1>$1300</h1>
                     <h5 class="text-capitalize fw-bold">Corporate event</h5>
                     <p class="fw-normal">For most corporate business 
@@ -194,10 +211,10 @@
                 </div>
             </div>
         </section>
-        <section id="faq-section" class="container px-0 pb-5">
-            <h1 class="text-uppercase fw-bold text-center my-5">Frequently Asked Questions</h1>
+        <section id="faq-section" class="container w-100 pb-5">
+            <h1 class="text-uppercase fw-bold text-center my-5 mt-0">Frequently Asked Questions</h1>
             <div class="row">
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 col-12 my-3 my-lg-0 d-flex justify-content-center align-items-center">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
@@ -249,20 +266,21 @@
                           </div>
                       </div>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                    <img class="w-100" src="images/people.png" alt="people">
+                <div class="col-lg-6 col-12 px-0">
+                    <img class="img-fluid" src="images/pexels-christina-morillo-1181406 (1).jpg" alt="people">
                 </div>
             </div>
         </section>
         <!-- OUR PACKAGE SECTION END HERE -->
     </main>
     <!-- MAIN SECTION END HERE -->
-    <footer id="footer-section" class="bg-dark container-fluid py-5 row">
-            <div class="container px-0 row">
-                <div class="col-lg-6 d-flex justify-content-start align-items-center">
-                    <p class="text-light"><i class="far fa-copyright"></i> 2022 Uttam Kumar Saha. All rights reserved</p>
+    <!-- FOOTER SECTION START FROM HERE -->
+    <footer id="footer-section" class="bg-dark container-fluid py-5">
+            <div class="container row">
+                <div class="col-lg-6 col-12 d-flex justify-content-start align-items-center">
+                    <p class="text-light text-center text-lg-start text-uppercase"><i class="far fa-copyright"></i> 2022 SHOHAYAB HOSSAIN TALHA All rights reserved</p>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                <div class="col-lg-6  col-12 d-flex justify-content-start  justify-content-lg-end align-items-center">
                     <div style="width: 200px;">
                         <h3 class="text-light my-3 fs-3">Get the app</h3>
                         <a style="background: black; border: 1px solid white;" href="#" class="btn text-light d-flex justify-content-center align-items-center mb-3"><i style="font-size: 30px;" class="fab fa-app-store-ios me-2"></i><span class="d-flex justify-content-center align-items-start flex-column"><p class="py-0 my-0">Get it now</p><h4 class="my-0 py-0">App Store</h4></span></a>
@@ -272,7 +290,7 @@
                 </div>
             </div>
     </footer>
-
+    <!-- FOOTER SECTION END HERE -->
     <!-- BOOTSTRAP SCRIPT CDN LINK HERE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
