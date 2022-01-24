@@ -13,7 +13,7 @@ html{
 /* ADDING OVERLAY OF THE  IMAGE  */
 .overlay{
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 .overlay img{
 height: 100% !important;
@@ -26,6 +26,6 @@ height: 100% !important;
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.5);
-    z-index:1;
+    z-index:2;
 }
 /* ADDING OVERLAY OF THE IMAGE  */
